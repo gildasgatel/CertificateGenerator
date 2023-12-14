@@ -1,6 +1,8 @@
 # CertificatGenerator
 
 CertificatGenerator is a Golang program designed to generate certificates in PDF or HTML format from a CSV file using a Command-Line Interface (CLI).
+![This is an image](https://github.com/gildasgatel/CertificateGenerator/blob/master/out/cert_JaneSmith.pdf)
+
 
 ## Features
 
