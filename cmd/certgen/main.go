@@ -3,7 +3,9 @@ package main
 import (
 	"certgen/model"
 	"certgen/pkg/cert"
+	"certgen/pkg/cert/html"
 	"certgen/pkg/cert/pdf"
+
 	"encoding/csv"
 	"flag"
 	"fmt"
@@ -46,7 +48,7 @@ func main() {
 	case PDF_TYPE:
 		generator = pdf.New()
 	case HTML_TYPE:
-		//todo
+		generator = html.New()
 	}
 
 	for {
